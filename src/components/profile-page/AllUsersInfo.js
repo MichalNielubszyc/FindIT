@@ -28,9 +28,9 @@ export const AllUsersInfo = () => {
           let userId = { id: user.id };
           let object = { ...user.data(), ...userId };
           allUsersArray = [...allUsersArray, object];
-          setAllUsersInfo(allUsersArray);
-          setState("loaded");
         });
+        setAllUsersInfo(allUsersArray);
+        setState("loaded");
       });
   }, []);
 
@@ -48,7 +48,7 @@ export const AllUsersInfo = () => {
         <div className="profile-sections-container">
           {allUsersInfo
             ?.filter((user) => {
-              return user.name !== "";
+              return user.name.trim() !== "";
             })
             .filter((user) => {
               return user.id !== currentUser;
