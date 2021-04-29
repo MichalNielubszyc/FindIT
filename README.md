@@ -57,6 +57,8 @@ Backend features were implemented using Firebase. We used Firestore Database to 
 
 FindIT has been deployed via Github Pages, create your profile, post and communicate with others: <a href="https://infoshareacademy.github.io/jfdzr2-all-you-need-is-code/#/" target="_blank">Link to page</a>
 
+Layouts were created using Figma: <a href="https://www.figma.com/file/9fu4JT9mX1qHIQOkI1ywbc/FindIT_WelcomePage?node-id=0%3A1">Link to out layouts</a>
+
 ### Feedback
 
 If you have any comments on this project feel free to leave them in issues or contact us via GitHub.
